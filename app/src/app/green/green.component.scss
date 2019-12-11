@@ -14,9 +14,15 @@
   from {
     width: 500px;
     height: 500px;
+    background: #dc3545;
   }
   to {
     width: 300px;
     height: 300px;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+    background: #17a2b8;
   }
 }
+
